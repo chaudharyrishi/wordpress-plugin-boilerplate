@@ -20,13 +20,13 @@ define('FPAI_SEO_TEXTDOMAIN', 'fpai-seo');
 define('FPAI_SEO_PLUGIN_FILE', __FILE__);
 define('FPAI_SEO_URL', plugin_dir_url(__FILE__));
 define('FPAI_SEO_PATH', plugin_dir_path(__FILE__));
-define('FPAI_SEO_ASSETS_URL', FPAI_SEO_URL . 'includes/assets/');
-define('FPAI_SEO_INCLUDE_PATH', FPAI_SEO_PATH . 'includes/');
+define('FPAI_SEO_ASSETS_URL', FPAI_SEO_URL . 'src/assets/');
+define('FPAI_SEO_SRC_PATH', FPAI_SEO_PATH . 'src/');
 
 /**
  * Load core plugin class
  */
-require_once FPAI_SEO_INCLUDE_PATH . 'core/class.fpai-seo.php';
+require_once FPAI_SEO_SRC_PATH . 'core/class.fpai-seo.php';
 
 /**
  * Initialize the plugin

@@ -17,7 +17,7 @@ class FPAI_SEO
     public function fpai_process_seo()
     {
 
-        require FPAI_SEO_INCLUDE_PATH . 'settings.php';
+        require FPAI_SEO_SRC_PATH . 'settings.php';
     }
     public function fpai_menus()
     {
